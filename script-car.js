@@ -2,9 +2,9 @@ $(document).ready(function () {
   // Initialiser le carrousel
   $('.carousel').slick({
     dots: false,
-    infinite: false,
-    speed: 500,
-    slidesToShow: 5,
+    infinite: true,
+    speed: 400,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
