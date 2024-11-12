@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'area-exblack', sans-serif;
     line-height: 1.97;
     margin: 0;
     color: #6F6F6F;
@@ -67,7 +67,7 @@ ul {
 }
 
 .baseline-welcome {
-    font-family: 'Abril Fatface','Cinzel', serif;
+    font-family: 'area-exblack' , sans-serif;
     color: #C89446;
     display: block;
     font-size: 2.2rem;
@@ -135,10 +135,11 @@ ul {
     font-weight: bold;
     text-transform: none;
     margin: 1rem 0 0 0;
+    padding-top: 40px;
 }
 
 .title span {
-    font-family: 'Abril Fatface','Cinzel', serif;
+    font-family: 'area-exblack', sans-serif;
     color: #C89446;
     font-size: 2.16rem;
     display:block;
@@ -161,7 +162,7 @@ ul {
 
 .block-centered {
     text-align: center;
-    font-family: 'Abril Fatface','Cinzel', serif;
+    font-family: 'area-exblack', sans-serif;
 }
 
 .block-centered .block-body {
@@ -202,7 +203,7 @@ ul {
 }
 
 .menu-summary-price {
-    font-family: 'Abril Fatface','Cinzel', serif;
+    font-family: 'area-exblack', sans-serif;
     color: #C89446;
     font-size: 2.5rem;
     line-height: 1;
@@ -245,7 +246,6 @@ ul {
     }
 }
 
-
 @media only screen and (min-width: 600px) {
     html {
         font-size: 16px;
@@ -274,7 +274,7 @@ ul {
         font-size: 1.5rem;
     }
     .baseline-name {
-        font-size: 4.375rem;
+        font-size: 3.375rem;
         letter-spacing: 12px;
         padding-top: 8px;
         padding-bottom: 18px;
@@ -407,5 +407,23 @@ ul {
     }
     .pagination {
         margin: 60px;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .baseline-name {
+        font-size: 1.33rem;
+        letter-spacing: 12px;
+        padding-top: 8px;
+        padding-bottom: 18px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .baseline-name {
+        font-size: 1.75rem;
+        letter-spacing: 12px;
+        padding-top: 8px;
+        padding-bottom: 18px;
     }
 }

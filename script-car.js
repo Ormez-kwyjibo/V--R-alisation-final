@@ -1,9 +1,9 @@
 $(document).ready(function () {
   // Initialiser le carrousel
   $('.carousel').slick({
-    dots: false,
+    dots: true,
     infinite: true,
-    speed: 400,
+    speed: 300,
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,

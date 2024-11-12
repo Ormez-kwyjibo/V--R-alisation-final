@@ -94,6 +94,7 @@
   align-items: center;
   height: 55vh;
   position: relative;
+  margin-bottom: 100px;
 }
 .carousel-container img {
 width: 600px;
