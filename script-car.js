@@ -1,6 +1,6 @@
 $(document).ready(function () {
   // Initialiser le carrousel
-  $('.carousel').slick({
+  $(".carousel").slick({
     dots: true,
     infinite: true,
     speed: 300,
@@ -8,36 +8,37 @@ $(document).ready(function () {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    prevArrow: $('.modal-prev'),
-    nextArrow: $('.modal-next'),
-    prevArrow: $('.slick-prev'),
-    nextArrow: $('.slick-next'),
-    responsive: [{
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true,
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        dots: true,
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        dots: true,
-      }
-    }
-    ]
+    prevArrow: $(".modal-prev"),
+    nextArrow: $(".modal-next"),
+    prevArrow: $(".slick-prev"),
+    nextArrow: $(".slick-next"),
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          dots: true,
+        },
+      },
+    ],
   });
   // Ouvrir le modal 1
   $("#openModalImg1").on("click", function () {
@@ -51,12 +52,14 @@ $(document).ready(function () {
       autoplay: false,
       prevArrow: "#prevBtn1",
       nextArrow: "#nextBtn1",
-      responsive: [{
-        breakpoint: 768,
-        settings: {
-          arrows: true,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: true,
+          },
         },
-      },],
+      ],
       adaptiveHeight: true, // Activer l'adaptation de la hauteur
     });
     // Ajuster la taille du modal en fonction de l'image
@@ -78,12 +81,14 @@ $(document).ready(function () {
       autoplay: false,
       prevArrow: "#prevBtn2",
       nextArrow: "#nextBtn2",
-      responsive: [{
-        breakpoint: 768,
-        settings: {
-          arrows: true,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: true,
+          },
         },
-      },],
+      ],
       adaptiveHeight: true, // Activer l'adaptation de la hauteur
     });
     // Ajuster la taille du modal en fonction de l'image
@@ -105,12 +110,14 @@ $(document).ready(function () {
       autoplay: false,
       prevArrow: "#prevBtn3",
       nextArrow: "#nextBtn3",
-      responsive: [{
-        breakpoint: 768,
-        settings: {
-          arrows: true,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: true,
+          },
         },
-      },],
+      ],
       adaptiveHeight: true, // Activer l'adaptation de la hauteur
     });
     // Ajuster la taille du modal en fonction de l'image
@@ -132,12 +139,14 @@ $(document).ready(function () {
       autoplay: false,
       prevArrow: "#prevBtn4",
       nextArrow: "#nextBtn4",
-      responsive: [{
-        breakpoint: 768,
-        settings: {
-          arrows: true,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: true,
+          },
         },
-      },],
+      ],
       adaptiveHeight: true, // Activer l'adaptation de la hauteur
     });
     // Ajuster la taille du modal en fonction de l'image
@@ -159,12 +168,14 @@ $(document).ready(function () {
       autoplay: false,
       prevArrow: "#prevBtn5",
       nextArrow: "#nextBtn5",
-      responsive: [{
-        breakpoint: 768,
-        settings: {
-          arrows: true,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: true,
+          },
         },
-      },],
+      ],
       adaptiveHeight: true, // Activer l'adaptation de la hauteur
     });
     // Ajuster la taille du modal en fonction de l'image
@@ -174,35 +185,95 @@ $(document).ready(function () {
       adjustModalSize("#imageCarouselModal5");
     });
   });
-    // Ouvrir le modal 6
-    $("#openModalImg6").on("click", function () {
-      $("#imageCarouselModal6").addClass("show");
-      $(".image-carousel", "#imageCarouselModal6").slick({
-        dots: false,
-        infinite: true,
-        speed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: false,
-        prevArrow: "#prevBtn6",
-        nextArrow: "#nextBtn6",
-        responsive: [{
+  // Ouvrir le modal 6
+  $("#openModalImg6").on("click", function () {
+    $("#imageCarouselModal6").addClass("show");
+    $(".image-carousel", "#imageCarouselModal6").slick({
+      dots: false,
+      infinite: true,
+      speed: 2000,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: false,
+      prevArrow: "#prevBtn6",
+      nextArrow: "#nextBtn6",
+      responsive: [
+        {
           breakpoint: 768,
           settings: {
             arrows: true,
           },
-        },],
-        adaptiveHeight: true, // Activer l'adaptation de la hauteur
-      });
-      // Ajuster la taille du modal en fonction de l'image
-      adjustModalSize("#imageCarouselModal6");
-      // Écouter l'événement afterChange du carousel pour ajuster la taille du modal
-      $(".image-carousel", "#imageCarouselModal6").on("afterChange", function () {
-        adjustModalSize("#imageCarouselModal6");
-      });
+        },
+      ],
+      adaptiveHeight: true, // Activer l'adaptation de la hauteur
     });
-    
-    
+    // Ajuster la taille du modal en fonction de l'image
+    adjustModalSize("#imageCarouselModal6");
+    // Écouter l'événement afterChange du carousel pour ajuster la taille du modal
+    $(".image-carousel", "#imageCarouselModal6").on("afterChange", function () {
+      adjustModalSize("#imageCarouselModal6");
+    });
+  });
+
+  // Ouvrir le modal 7
+  $("#openModalImg7").on("click", function () {
+    $("#imageCarouselModal7").addClass("show");
+    $(".image-carousel", "#imageCarouselModal7").slick({
+      dots: false,
+      infinite: true,
+      speed: 2000,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: false,
+      prevArrow: "#prevBtn7",
+      nextArrow: "#nextBtn7",
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: true,
+          },
+        },
+      ],
+      adaptiveHeight: true, // Activer l'adaptation de la hauteur
+    });
+    // Ajuster la taille du modal en fonction de l'image
+    adjustModalSize("#imageCarouselModal7");
+    // Écouter l'événement afterChange du carousel pour ajuster la taille du modal
+    $(".image-carousel", "#imageCarouselModal7").on("afterChange", function () {
+      adjustModalSize("#imageCarouselModal7");
+    });
+  });
+   // Ouvrir le modal 8
+   $("#openModalImg8").on("click", function () {
+    $("#imageCarouselModal8").addClass("show");
+    $(".image-carousel", "#imageCarouselModal8").slick({
+      dots: false,
+      infinite: true,
+      speed: 2000,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: false,
+      prevArrow: "#prevBtn8",
+      nextArrow: "#nextBtn8",
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: true,
+          },
+        },
+      ],
+      adaptiveHeight: true, // Activer l'adaptation de la hauteur
+    });
+    // Ajuster la taille du modal en fonction de l'image
+    adjustModalSize("#imageCarouselModal8");
+    // Écouter l'événement afterChange du carousel pour ajuster la taille du modal
+    $(".image-carousel", "#imageCarouselModal8").on("afterChange", function () {
+      adjustModalSize("#imageCarouselModal8");
+    });
+  });
+
   // Fermer le modal
   $(".modal-close, .modal-wrapper").on("click", function (e) {
     if (e.target === this || $(e.target).hasClass("modal-close")) {
@@ -214,14 +285,17 @@ $(document).ready(function () {
   // A faire àméliorer
   //Overlay
   $(document).ready(function () {
-    $('.overlay').click(function () {
-      var target = $(this).data('target');
-      $(target).modal('show');
+    $(".overlay").click(function () {
+      var target = $(this).data("target");
+      $(target).modal("show");
     });
   });
   // Fonction pour ajuster la taille du modal en fonction de l'image
   function adjustModalSize(modalId) {
-    const currentSlide = $(".image-carousel .slick-current .modal-img", modalId);
+    const currentSlide = $(
+      ".image-carousel .slick-current .modal-img",
+      modalId
+    );
     const imgWidth = currentSlide[0].naturalWidth;
     const imgHeight = currentSlide[0].naturalHeight;
     $(".modal-img-container", modalId).css({
