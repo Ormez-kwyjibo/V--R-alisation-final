@@ -174,6 +174,35 @@ $(document).ready(function () {
       adjustModalSize("#imageCarouselModal5");
     });
   });
+    // Ouvrir le modal 6
+    $("#openModalImg6").on("click", function () {
+      $("#imageCarouselModal6").addClass("show");
+      $(".image-carousel", "#imageCarouselModal6").slick({
+        dots: false,
+        infinite: true,
+        speed: 2000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+        prevArrow: "#prevBtn6",
+        nextArrow: "#nextBtn6",
+        responsive: [{
+          breakpoint: 768,
+          settings: {
+            arrows: true,
+          },
+        },],
+        adaptiveHeight: true, // Activer l'adaptation de la hauteur
+      });
+      // Ajuster la taille du modal en fonction de l'image
+      adjustModalSize("#imageCarouselModal6");
+      // Écouter l'événement afterChange du carousel pour ajuster la taille du modal
+      $(".image-carousel", "#imageCarouselModal6").on("afterChange", function () {
+        adjustModalSize("#imageCarouselModal6");
+      });
+    });
+    
+    
   // Fermer le modal
   $(".modal-close, .modal-wrapper").on("click", function (e) {
     if (e.target === this || $(e.target).hasClass("modal-close")) {
