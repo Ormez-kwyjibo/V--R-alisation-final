@@ -1,0 +1,15 @@
+  <!-- Modal 8-->
+      <div class="modal-wrapper" id="imageCarouselModal8">
+        <div class="modal-content">
+          <div class="modal-img-container">
+            <!-- Carousel Slick -->
+            <div class="image-carousel">
+              <img class="modal-img image-item" src="IMG-F/pi24/pibar-face.jpeg" alt="img-1" />
+            </div>
+          </div>
+          <!-- Boutons de navigation et fermeture du modal -->
+          <span class="modal-prev" id="prevBtn8" title="Previous">&#10094;</span>
+          <span class="modal-next" id="nextBtn8" title="Next">&#10095;</span>
+          <span class="modal-close" id="closeModalBtn8" title="Close">&times;</span>
+        </div>
+      </div>

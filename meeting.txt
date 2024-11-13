@@ -1,0 +1,32 @@
+13.11.2024
+
+-Tous les h1 en majuscule
+
+-l'architecture et coordinations de chantier à enlever.
+
+-mettre sur une ligne les descriptifs 
+
+-mettre moins de points au carousel
+
+-enlevertous les points dans le contact.
+
+-mettre 1 pour 1 le réalisations
+
+- centrer 
+
+-shooter les carousel
+
+- font
+
+-responsive letter spacing
+
+- image 
+
+- ajouter les photos à raph 
+
+-fiche technique -------------
+
+- fleches pour pull up 3
+
+
+optizilla
