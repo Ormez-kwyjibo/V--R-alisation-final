@@ -2,7 +2,7 @@ $(document).ready(function () {
   // Initialiser le carrousel
   $(".carousel").slick({
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -40,6 +40,7 @@ $(document).ready(function () {
       },
     ],
   });
+
   // Ouvrir le modal 1
   $("#openModalImg1").on("click", function () {
     $("#imageCarouselModal1").addClass("show");
@@ -244,35 +245,35 @@ $(document).ready(function () {
       adjustModalSize("#imageCarouselModal7");
     });
   });
-   // Ouvrir le modal 8
-  //  $("#openModalImg8").on("click", function () {
-  //   $("#imageCarouselModal8").addClass("show");
-  //   $(".image-carousel", "#imageCarouselModal8").slick({
-  //     dots: false,
-  //     infinite: true,
-  //     speed: 2000,
-  //     slidesToShow: 1,
-  //     slidesToScroll: 1,
-  //     autoplay: false,
-  //     prevArrow: "#prevBtn8",
-  //     nextArrow: "#nextBtn8",
-  //     responsive: [
-  //       {
-  //         breakpoint: 768,
-  //         settings: {
-  //           arrows: true,
-  //         },
-  //       },
-  //     ],
-  //     adaptiveHeight: true, // Activer l'adaptation de la hauteur
-  //   });
-  //   // Ajuster la taille du modal en fonction de l'image
-  //   adjustModalSize("#imageCarouselModal8");
-  //   // Écouter l'événement afterChange du carousel pour ajuster la taille du modal
-  //   $(".image-carousel", "#imageCarouselModal8").on("afterChange", function () {
-  //     adjustModalSize("#imageCarouselModal8");
-  //   });
-  // });
+  // Ouvrir le modal 8
+  $("#openModalImg8").on("click", function () {
+    $("#imageCarouselModal8").addClass("show");
+    $(".image-carousel", "#imageCarouselModal8").slick({
+      dots: false,
+      infinite: true,
+      speed: 2000,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: false,
+      prevArrow: "#prevBtn8",
+      nextArrow: "#nextBtn8",
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: true,
+          },
+        },
+      ],
+      adaptiveHeight: true, // Activer l'adaptation de la hauteur
+    });
+    // Ajuster la taille du modal en fonction de l'image
+    adjustModalSize("#imageCarouselModal8");
+    // Écouter l'événement afterChange du carousel pour ajuster la taille du modal
+    $(".image-carousel", "#imageCarouselModal8").on("afterChange", function () {
+      adjustModalSize("#imageCarouselModal8");
+    });
+  });
 
   // Fermer le modal
   $(".modal-close, .modal-wrapper").on("click", function (e) {

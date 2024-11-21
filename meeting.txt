@@ -1,32 +1,74 @@
 13.11.2024
 
--Tous les h1 en majuscule
+-Tous les h1 en majuscule  = Fait 
 
--l'architecture et coordinations de chantier à enlever.
+-l'architecture et coordinations de chantier à enlever. = Fait
 
--mettre sur une ligne les descriptifs 
+-enlevertous les points dans le contact.  = Fait 
 
--mettre moins de points au carousel
+1 --mettre 1 pour 1 le réalisations  = Fait
 
--enlevertous les points dans le contact.
+- mettre le a propos plus en 1p1 = Fait
 
--mettre 1 pour 1 le réalisations
+2 -- font = Fait
 
-- centrer 
+3 --responsive letter spacing = Fait 
 
--shooter les carousel
+- image  = Fait
+- ajouter les photos à raph = Fait
 
-- font
+-mettre moins de points au carousel = Fait
+- centrer = Fait
 
--responsive letter spacing
+-shooter les carousel = Fait voir avec SK
+_________________________________________________________________________
+-mettre sur une ligne les descriptifs = voir avec Sk 
 
-- image 
 
-- ajouter les photos à raph 
+
+
+
+mail SK :
+
+Il y a un truc que je n’aime pas entre le logo et le titre de la première page (mais je ne sais pas quoi). = A voir
+Tous les titres doivent avoir une majuscule. = Fait 
+Les images Dt et Architecture doivent être plus claires. = fait voir le dégre qu'il veut 
+Tout aligner sur une page notamment DT. = ?
+Nouvelle image
+Titre dans les projets.
+etc.
+Merci
+
+On pourrait changer l’ordre du site ? = Oui
+
+ 
+
+Mettre les images avant la description ? = oui 
+
+Ou c’est trop compliqué ?  = JSP   
+
+ 
+
+De plus, on  a oublié les amis en référence` ! J'ai pas les liens etc...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 -fiche technique -------------
 
-- fleches pour pull up 3
+- fleches pour pull up 
 
 
 optizilla
