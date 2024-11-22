@@ -33,6 +33,10 @@ ul {
     list-style-type: none;
   }  
 
+li{
+    list-style-type: none;
+
+}
 .header {
     background: 
         linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(54, 54, 54, 0.5) 39.24%, rgba(28, 28, 28, 0.4)), 
@@ -176,10 +180,10 @@ ul {
     margin-top: 60px;
     padding-bottom: 15px;
 }
-/* .service-dt-ar{
+.service-dt-ar{
     line-height: 0.7rem;
-    font-size: 13px;
-} */
+    font-size: 11px;
+}
 .menu-summary-item {
     position: relative;
     padding-left: 120px;

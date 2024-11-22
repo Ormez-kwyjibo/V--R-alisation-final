@@ -1,0 +1,17 @@
+
+mettre les croquis en photo 1 
+
+
+pep 01
+
+Assembler les photos Dans chaque album 
+
+
+
+- enlever les - dans Contact.
+- enlever les - dans  Architecture. = Fait 
+- Mettre v realisations Sarl sur une ligne sur téléphone.
+- mettre les photos descriptifs
+-font size 11px. = Fait 
+font aize 12px 
+
