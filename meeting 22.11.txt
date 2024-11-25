@@ -8,10 +8,11 @@ Assembler les photos Dans chaque album
 
 
 
-- enlever les - dans Contact.
+- enlever les - dans Contact. = fait 
 - enlever les - dans  Architecture. = Fait 
-- Mettre v realisations Sarl sur une ligne sur téléphone.
-- mettre les photos descriptifs
+- Mettre v realisations Sarl sur une ligne sur téléphone. = fait 
+- mettre les photos descriptifs = Fait
 -font size 11px. = Fait 
-font aize 12px 
+font size 12px pour le a propos = Casse l'harmonie de la page doit en discuter avec lui 
+
 

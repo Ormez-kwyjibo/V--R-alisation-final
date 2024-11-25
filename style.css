@@ -181,7 +181,7 @@ li{
     padding-bottom: 15px;
 }
 .service-dt-ar{
-    line-height: 0.7rem;
+    line-height: 1.3rem;
     font-size: 11px;
 }
 .menu-summary-item {
@@ -400,9 +400,6 @@ li{
     .footer ul {
         padding-left: 0;
         list-style: none;
-    }
-    .footer ul li::before {
-        content: '- ';
     }
     .footer-credits {
         font-size: 0.93em;
