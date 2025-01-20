@@ -132,7 +132,7 @@ li{
     text-align: center;
 }
 .title {
-    font-size: 1.25rem;
+    font-size: 1.18rem;
     line-height: 1.1;
     letter-spacing: 3px;
     color: #C89446;
@@ -180,6 +180,7 @@ li{
     margin-top: 60px;
     padding-bottom: 15px;
 }
+ 
 .service-dt-ar{
     line-height: 1.3rem;
     font-size: 11px;
@@ -253,6 +254,11 @@ li{
     body {
         border: 3px solid /* épaisseur de bordure*/
     }
+    .text-intro {
+        font-size: 13px;
+    }
+    .service-dt-ar{
+        font-size: 13px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -424,6 +430,12 @@ li{
         padding-top: 8px;
         padding-bottom: 18px;
     }
+    .text-intro {
+        font-size: 13px;
+    }
+    .service-dt-ar{
+        font-size: 13px;
+    }
 }
 
 @media only screen and (max-width: 650px) {
@@ -432,5 +444,11 @@ li{
         letter-spacing: 1px;
         padding-top: 8px;
         padding-bottom: 18px;
+    }
+    .text-intro {
+        font-size: 13px;
+    }
+    .service-dt-ar{
+        font-size: 13px;
     }
 }
